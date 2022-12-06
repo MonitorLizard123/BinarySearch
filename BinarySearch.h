@@ -11,7 +11,7 @@
             else cursor = start+(end-start+1)/2;
             if(vec[cursor] == toFind) break;
             else if(start+1 == end ){
-                if(vec[start] == toFind) {
+                if(vec[start] == toFind){
                     cursor = start;
                     break;
                 }
