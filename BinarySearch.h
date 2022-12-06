@@ -3,6 +3,7 @@
     #include <vector>
     template<typename type> int BinarySearch(const std::vector<type> &vec,const type &toFind){
         int cursor,start,end;
+        cursor = 0;
         start = 0;
         end = vec.size()-1;
         while(start<end){
