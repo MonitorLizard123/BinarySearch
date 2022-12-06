@@ -19,6 +19,10 @@
                     cursor = end;
                     break;
                 }
+                else if(vec[end] != toFind && vec[start] != toFind){
+                    cursor = -1;
+                    break;
+                }                
             }
             else {
                 if(vec[cursor] > toFind) end = cursor;
