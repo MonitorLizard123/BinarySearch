@@ -1,5 +1,5 @@
-#ifndef BINARY_SEARCH
-    #define BINARY_SEARCH
+#ifndef BINARY_SEARCH_0b0b7a677986a493e79e57b5077242bdf6c1e5060e1ba6f7a9fbf8ff9ab5a6a6
+    #define BINARY_SEARCH_0b0b7a677986a493e79e57b5077242bdf6c1e5060e1ba6f7a9fbf8ff9ab5a6a6
     #include <vector>
     template<typename type> int BinarySearch(const std::vector<type> &vec,const type &toFind){
         int cursor,start,end;
